@@ -97,12 +97,19 @@ width: 100%;
 height: 30px;
 background-color:#2C8E2C;
 bottom: 0;
-position: relative;
+position: fixed;
 color: #fff;
 }
 
 .direita {
+	margin-right:10%;
+	float: right;
 	text-align: right;
+}
+.esquerda {
+	margin-left:10%;
+	float: left;
+	text-align: left;
 }
 
 #corpo {
