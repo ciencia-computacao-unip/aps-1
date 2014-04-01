@@ -88,12 +88,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	background-color: #3071a9;
 }
 
-.botao_menu.primeiro{
+.botao_menu:first-child{
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
-
-.botao_menu.ultimo{
+.botao_menu:last-child{
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	border-right:1px solid #357ebd;
