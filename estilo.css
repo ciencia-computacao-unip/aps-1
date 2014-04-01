@@ -66,6 +66,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 }
 
+#menu_principal{
+white-space:nowrap;
+}
+
 .botao_menu {
 	background-color: #428BCA;
 	border-color: #357ebd;
@@ -83,6 +87,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	-moz-transition: background-color 0.3s linear;    /* FF3.7+ */
 	-o-transition: background-color 0.3s linear;      /* Opera 10.5 */
 	-webkit-transition: background-color 0.3s linear; /* Saf3.2+, Chrome */
+	white-space:nowrap;
 }
 .botao_menu:hover, .botao_menu:active, .botao_menu:focus, .botao_menu.ativo{
 	background-color: #3071a9;
