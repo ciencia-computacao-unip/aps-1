@@ -86,18 +86,17 @@ color: #bbb;
 
 
 .botao_menu {
-	background-color: #428BCA;
-	border-color: #357ebd;
-	padding: 10px 10px 5px 10px;
+	background-color: #5CB85C;
+	border-color: #4CAE4C;
+	padding: 10px 10px 6px 10px;
 	width: 100px;
 	font-weight: bold;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
 	display: table-cell;
-	border-top:1px solid #357ebd;
-	border-bottom:1px solid #357ebd;
-	border-left:1px solid #357ebd;
+	border-top:1px solid #4CAE4C;
+	border-left:1px solid #4CAE4C;
 	transition: background-color 0.3s linear;
 	-moz-transition: background-color 0.3s linear;    /* FF3.7+ */
 	-o-transition: background-color 0.3s linear;      /* Opera 10.5 */
@@ -106,7 +105,7 @@ color: #bbb;
 	opacity:0.95;
 }
 .botao_menu:hover, .botao_menu:active, .botao_menu:focus, .botao_menu.ativo{
-	background-color: #3071a9;
+	background-color: #47A447;
 }
 
 .botao_menu:first-child{
@@ -114,5 +113,5 @@ color: #bbb;
 }
 .botao_menu:last-child{
 	border-top-right-radius: 5px;
-	border-right:1px solid #357ebd;
+	border-right:1px solid #4CAE4C;
 }
