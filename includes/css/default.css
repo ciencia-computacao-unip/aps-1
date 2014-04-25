@@ -88,7 +88,7 @@ color: #bbb;
 .botao_menu {
 	background-color: #428BCA;
 	border-color: #357ebd;
-	padding: 10px;
+	padding: 10px 10px 5px 10px;
 	width: 100px;
 	font-weight: bold;
 	color: #fff;
