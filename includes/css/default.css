@@ -63,14 +63,14 @@
 	}
 
 	50%  {
-		-webkit-transform: rotate(280deg);
+		
 
 		left:100px;
 		top:00px;
 	}
 
 	100% {
-
+		-webkit-transform: rotate(180deg);
 		left:-100px;
 		top:0px;
 	}
