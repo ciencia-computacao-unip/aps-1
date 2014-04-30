@@ -62,7 +62,7 @@
 	padding:0;
 	position:relative;
 
-	-webkit-animation:logoanimado 5s infinite ease-in-out;
+	-webkit-animation:logoanimado 5s ease-in-out infinite ;
 }
 
 
