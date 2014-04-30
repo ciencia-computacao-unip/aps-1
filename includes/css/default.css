@@ -24,7 +24,7 @@
 	color: #fff;
 }
 #cabecalho{
-	height: 350px;
+	height: 300px;
 	align:center;
 	padding-top:10px;
 }
@@ -92,7 +92,7 @@ a {
 }
 
 h1 {
-	margin-top: 30px;
+	margin-top: 10px;
 	font-size: 36px;
 }
 
@@ -113,7 +113,7 @@ color: #bbb;
 .botao_menu {
 	background-color: #5CB85C;
 	border-color: #4CAE4C;
-	padding: 10px 10px 8px 10px;
+	padding: 5px 10px 5px 10px;
 	width: 300px;
 	font-weight: bold;
 	color: #fff;
