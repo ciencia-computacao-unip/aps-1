@@ -25,6 +25,7 @@
 #cabecalho{
 	height: 350px;
 	align:center;
+	padding-top:10px;
 }
 
 #rodape {
@@ -48,8 +49,10 @@
 	width: 175px;
 	height: 175px;
 	margin: 0 auto;
-	padding:10px 0 0 0;
+	padding:0;
 	position:relative;
+}
+.logo:hover{
 	-webkit-animation:logoanimado 5s linear 0s infinite normal;
 }
 
@@ -69,7 +72,6 @@
 
 	100% {
 		-webkit-transform: rotate(-70deg);
-
 	}
 }
 
