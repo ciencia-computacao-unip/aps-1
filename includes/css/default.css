@@ -65,7 +65,7 @@
 	}
 
 	100% {
-		-webkit-transform: rotate(110deg);
+		-webkit-transform: rotate(360deg);
 	}
 }
 
