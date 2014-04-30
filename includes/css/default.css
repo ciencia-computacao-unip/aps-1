@@ -38,13 +38,15 @@
 }
 #conteudo{
 	padding: 15px 0;
-	background-color: rgba(255,255,255,0.95);
+	background-color: rgba(255,255,255,0.85);
 	color: #777;
 	font-size: 15pt;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 #conteudo>div {
-	width: 700px;
+	width: 850px;
 	margin: 0 auto;
 	height:auto;
 }
@@ -78,7 +80,7 @@
 p {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #515151;
+	color: #313131;
 }
 
 a {
@@ -123,7 +125,7 @@ color: #bbb;
 	-o-transition: background-color 0.3s linear;      /* Opera 10.5 */
 	-webkit-transition: background-color 0.3s linear; /* Saf3.2+, Chrome */
 	white-space:nowrap;
-	opacity:0.95;
+	opacity:0.85;
 }
 
 
