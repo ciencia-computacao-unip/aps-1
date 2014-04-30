@@ -128,7 +128,6 @@ color: #bbb;
 	-o-transition: background-color 0.3s linear;      /* Opera 10.5 */
 	-webkit-transition: background-color 0.3s linear; /* Saf3.2+, Chrome */
 	white-space:nowrap;
-	opacity:0.85;
 }
 
 
