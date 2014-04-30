@@ -50,7 +50,10 @@
 	margin: 0 auto;
 	padding:10px 0 0 0;
 	position:relative;
-	-webkit-animation:logoanimado 5s linear 0s infinite normal;
+
+}
+.logo:hover{
+		-webkit-animation:logoanimado 5s linear 0s infinite normal;
 }
 
 
