@@ -57,17 +57,14 @@
 @-webkit-keyframes logoanimado {
 	0%   {
 		-webkit-transform: rotate(-100deg);
-		-moz-transform: rotate(-100deg);-ms-transform:rotate(0deg);
-		-o-transform: rotate(-100deg);
+
 		left:-100px;
 		top:0px;
 	}
 
 	50%  {
-		-webkit-transform: rotate(180deg);
-		-moz-transform: rotate(180deg);
-		-ms-transform: rotate(180deg);
-		-o-transform: rotate(180deg);
+		-webkit-transform: rotate(80deg);
+
 		left:100px;
 		top:00px;
 	}
