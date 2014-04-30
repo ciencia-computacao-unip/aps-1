@@ -27,6 +27,10 @@
 	align:center;
 	padding-top:10px;
 }
+#cabecalho > div {
+    bottom: 0;
+    position: absolute;
+}
 
 #rodape {
 	height: 60px;
@@ -119,6 +123,7 @@ color: #bbb;
 	display: table-cell;
 	border-top:1px solid #4CAE4C;
 	border-left:1px solid #4CAE4C;
+	border-bottom:1px solid #4CAE4C;
 	transition: background-color 0.3s linear;
 	-moz-transition: background-color 0.3s linear;    /* FF3.7+ */
 	-o-transition: background-color 0.3s linear;      /* Opera 10.5 */
