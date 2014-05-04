@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 30px;
+	font-size: 14px;
 }
 
 #background {
@@ -19,7 +20,7 @@
 	position: relative;
 	margin: 0 auto;
 	padding: 0;
-	width: 960px;
+	width: 90%;
 	z-index: 10;
 	color: #fff;
 }
@@ -39,17 +40,17 @@
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	margin-bottom: 10px;
+	
 
 }
 #conteudo{
 	padding: 15px 0;
 	background-color: rgba(255,255,255,0.85);
 	color: #777;
-	font-size: 15pt;
 }
 
 #conteudo>div {
-	width: 850px;
+	width: 90%;
 	margin: 0 auto;
 	height:auto;
 }
@@ -80,30 +81,36 @@
 }
 
 
-p {
+#conteudo p {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #313131;
+	line-height: 20px;
 }
 
-a {
+#conteudo a {
 	color: #2a7ead;
 	text-decoration: none;
+	line-height: 20px;
 }
 
-h1 {
+#conteudo h1 {
 	margin-top: 10px;
 	font-size: 36px;
+	line-height: 20px;
 }
 
-h2 {
+#conteudo h2 {
 	margin-top: 25px;
 	font-size: 30px;
+	line-height: 20px;
+	padding-top: 40px;
 }
 
-h3 {
+#conteudo h3 {
 	margin-top: 20px;
 	font-size: 24px;
+	line-height: 20px;
 }
 small{
 color: #bbb;
@@ -141,4 +148,14 @@ color: #bbb;
 .botao_menu:last-child{
 	border-top-right-radius: 5px;
 	border-right:1px solid #4CAE4C;
+}
+
+#rodape .texto {
+margin: 0px 30px;
+
+}
+
+#rodape .texto p {
+color: #fff;
+margin: 7px 0;
 }
