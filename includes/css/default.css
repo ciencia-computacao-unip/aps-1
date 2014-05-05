@@ -177,6 +177,9 @@ border: 1px solid transparent;
 background-color: #47A447;
 border-color: #398439;
 }
+.tabela_contato_esquerda{
+	text-align:right
+}
 .tabela_contato_direita input,.tabela_contato_direita textarea{
 	width:100%;
 }
