@@ -31,10 +31,34 @@
 		<div id="conteudo">
 			<div >
 
-
-
-
-
+				<h3>Entre em contato conosco por meio do formulário abaixo</h3>
+				<form action="envia_contato.php" method="post" >
+				<table>
+					<tr>
+						<td class="tabela_contato_esquerda">Nome</td>
+						<td class="tabela_contato_direita">
+						<input type="text" name="nome" />
+						</td>
+					</tr>
+					<tr>
+						<td class="tabela_contato_esquerda">Assunto</td>
+						<td class="tabela_contato_direita">
+						<input type="text" name="assunto"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="tabela_contato_esquerda">Texto</td>
+						<td class="tabela_contato_direita">
+							<textarea rows="4" cols="50"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" class="tabela_contato_esquerda" colspan="2">
+							<input class="botao_enviar" type="submit" name="enviar" value="Enviar"/>
+						</td>
+					</tr>
+				</table>
+				</form>
 
 
 

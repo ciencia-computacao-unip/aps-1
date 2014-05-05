@@ -4,8 +4,11 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 30px;
 	font-size: 14px;
+	
 }
-
+body{
+overflow-y:scroll;
+}
 #background {
 	position: fixed;
 	width:100%;
@@ -63,14 +66,14 @@
 	padding:0;
 	position:relative;
 
-	-webkit-animation:logoanimado 5s ease-in-out infinite ;
+	-moz-animation:logoanimado 5s ease-in-out infinite ;
 }
 
 
-@-webkit-keyframes logoanimado {
-	0%   {left:-100px;-webkit-transform: rotate(0deg);}
-	50% {left:100px;-webkit-transform: rotate(80deg);}
-	100% {left:-100px;-webkit-transform: rotate(0deg);}
+@-moz-keyframes logoanimado {
+	0%   {left:-100px;-moz-transform: rotate(0deg);}
+	50% {left:100px;-moz-transform: rotate(80deg);}
+	100% {left:-100px;-moz-transform: rotate(0deg);}
 }
 
 
@@ -158,4 +161,19 @@ margin: 0px 30px;
 #rodape .texto p {
 color: #fff;
 margin: 7px 0;
+}
+
+.botao_enviar{
+margin-top: 5px;
+margin-bottom: 5px;
+color: #FFF;
+background-color: #5CB85C;
+border-color: #4CAE4C;
+border-radius: 4px;
+padding: 6px 12px;
+border: 1px solid transparent;
+}
+.botao_enviar:hover{
+background-color: #47A447;
+border-color: #398439;
 }
