@@ -232,7 +232,7 @@ margin:0 10px;
 	position: relative;
 
 }
-.featured img {
+.featured img, .featured video {
 	border-radius:5px;
 	max-width:300px;
 	height:auto;
