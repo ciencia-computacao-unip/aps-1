@@ -65,7 +65,9 @@ overflow-y:scroll;
 	margin: 0 auto;
 	padding:0;
 	position:relative;
-
+	
+	animation:logoanimado 5s ease-in-out infinite ;
+	-webkit-animation:logoanimado 5s ease-in-out infinite ;
 	-moz-animation:logoanimado 5s ease-in-out infinite ;
 }
 
@@ -75,9 +77,19 @@ overflow-y:scroll;
 	50% {left:100px;-moz-transform: rotate(80deg);}
 	100% {left:-100px;-moz-transform: rotate(0deg);}
 }
+@keyframes logoanimado {
+	0%   {left:-100px;transform: rotate(0deg);}
+	50% {left:100px;transform: rotate(80deg);}
+	100% {left:-100px;transform: rotate(0deg);}
+}
+@-webkit-keyframes logoanimado {
+	0%   {left:-100px;-webkit-transform: rotate(0deg);}
+	50% {left:100px;-webkit-transform: rotate(80deg);}
+	100% {left:-100px;-webkit-transform: rotate(0deg);}
+}
 
 
-
+m
 
 #cabecalho h1{
 	text-align: center;
